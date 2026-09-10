@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutz | Levi Tattoo Berlin</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cyber: ['Syncopate', 'sans-serif'],
+                        pixel: ['Silkscreen', 'cursive'],
+                        mono: ['Space Mono', 'monospace'],
+                    },
+                    colors: {
+                        'y2k-bg': '#050508',
+                        'y2k-cyan': '#00FFFF',
+                        'y2k-pink': '#FF00FF',
+                        'y2k-silver': '#E2E8F0',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #050508;
+            background-image: 
+                linear-gradient(rgba(255, 0, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 0, 255, 0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        ::-webkit-scrollbar { width: 12px; }
+        ::-webkit-scrollbar-track { background: #050508; border-left: 1px solid #333; }
+        ::-webkit-scrollbar-thumb { background: #00FFFF; border: 2px solid #050508; }
+        ::-webkit-scrollbar-thumb:hover { background: #FF00FF; }
+    </style>
+</head>
+<body class="font-mono text-gray-300 antialiased overflow-x-hidden selection:bg-y2k-pink selection:text-white">
+
+    <!-- NAVIGATION (Minimal) -->
+    <nav class="w-full bg-[#050508]/80 backdrop-blur-md border-b border-y2k-pink/30 fixed top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="index.html" class="flex items-center group cursor-pointer text-y2k-pink hover:text-white transition-colors">
+                    <i class="fa-solid fa-arrow-left mr-3"></i> 
+                    <span class="font-pixel text-xs tracking-widest uppercase">cd /home/startseite</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+        
+        <!-- Terminal Window -->
+        <div class="bg-black border border-y2k-pink p-1 rounded-lg relative shadow-[0_0_30px_rgba(255,0,255,0.1)]">
+            <!-- Window Header -->
+            <div class="bg-gray-900 px-4 py-2 flex items-center justify-between border-b border-y2k-pink/30">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-shield-halved text-y2k-pink text-xs"></i>
+                    <span class="text-xs text-y2k-pink font-pixel uppercase tracking-widest">privacy_policy.txt</span>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-3 h-3 border border-white/50 hover:bg-white transition-colors cursor-pointer"></div>
+                    <div class="w-3 h-3 border border-white/50 hover:bg-white transition-colors cursor-pointer"></div>
+                    <div class="w-3 h-3 border border-y2k-cyan hover:bg-y2k-cyan transition-colors cursor-pointer"></div>
+                </div>
+            </div>
+            
+            <!-- Window Content -->
+            <div class="p-8 space-y-8 text-sm leading-relaxed">
+                <div>
+                    <h1 class="font-cyber text-2xl md:text-3xl text-white tracking-widest uppercase mb-6 border-b border-white/10 pb-4">Datenschutz&shy;erklärung</h1>
+                    <p class="text-y2k-pink mb-4">> SCANNING FOR TRACKERS... [0] FOUND.</p>
+                    <p class="italic text-gray-500 mb-8">// HINWEIS: Dies ist ein Vorab-Entwurf zur Veranschaulichung. Bitte generiere später über eRecht24 eine vollständige, an dein Setup angepasste Erklärung.</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-white uppercase tracking-wider mb-2 text-lg">1. Datenschutz auf einen Blick</h2>
+                    <h3 class="font-bold text-y2k-pink mt-4 mb-2">Allgemeine Hinweise</h3>
+                    <p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.</p>
+                    
+                    <h3 class="font-bold text-y2k-pink mt-4 mb-2">Datenerfassung auf dieser Website</h3>
+                    <p class="mb-2"><strong>Wer ist verantwortlich für die Datenerfassung auf dieser Website?</strong><br>
+                    Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-white uppercase tracking-wider mb-2 text-lg">2. Hosting</h2>
+                    <p>Wir hosten die Inhalte unserer Website bei folgendem Anbieter:</p>
+                    <h3 class="font-bold text-y2k-pink mt-4 mb-2">Externes Hosting (z.B. GitHub Pages / Vercel)</h3>
+                    <p>Diese Website wird extern gehostet. Die personenbezogenen Daten, die auf dieser Website erfasst werden, werden auf den Servern des Hosters gespeichert. Hierbei kann es sich v. a. um IP-Adressen, Kontaktanfragen, Meta- und Kommunikationsdaten, Vertragsdaten, Kontaktdaten, Namen, Websitezugriffe und sonstige Daten, die über eine Website generiert werden, handeln.</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-white uppercase tracking-wider mb-2 text-lg">3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
+                    <h3 class="font-bold text-y2k-pink mt-4 mb-2">Datenschutz</h3>
+                    <p>Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend den gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-white uppercase tracking-wider mb-2 text-lg">4. Datenerfassung auf dieser Website</h2>
+                    <h3 class="font-bold text-y2k-pink mt-4 mb-2">Kontaktformular / Anfragen via Formspree</h3>
+                    <p>Wenn Sie uns per Kontaktformular (über Formspree) oder per E-Mail Anfragen zukommen lassen, werden Ihre Angaben inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter.</p>
+                    
+                    <h3 class="font-bold text-y2k-pink mt-4 mb-2">Local Storage (Cookies)</h3>
+                    <p>Unsere Website nutzt den sogenannten Local Storage Ihres Browsers (anstelle von klassischen Cookies), um Ihre Entscheidung bezüglich des Cookie-Banners zu speichern (Schlüssel: "cookies_accepted"). Diese Daten werden nur lokal auf Ihrem Endgerät gespeichert und nicht an unsere Server übertragen.</p>
+                </div>
+                
+                <div class="pt-8 border-t border-white/10 text-y2k-pink animate-pulse">
+                    > EOF
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

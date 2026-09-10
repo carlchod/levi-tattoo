@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum | Levi Tattoo Berlin</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cyber: ['Syncopate', 'sans-serif'],
+                        pixel: ['Silkscreen', 'cursive'],
+                        mono: ['Space Mono', 'monospace'],
+                    },
+                    colors: {
+                        'y2k-bg': '#050508',
+                        'y2k-cyan': '#00FFFF',
+                        'y2k-pink': '#FF00FF',
+                        'y2k-silver': '#E2E8F0',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #050508;
+            background-image: 
+                linear-gradient(rgba(0, 255, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 255, 255, 0.05) 1px, transparent 1px);
+            background-size: 30px 30px;
+        }
+        ::-webkit-scrollbar { width: 12px; }
+        ::-webkit-scrollbar-track { background: #050508; border-left: 1px solid #333; }
+        ::-webkit-scrollbar-thumb { background: #FF00FF; border: 2px solid #050508; }
+        ::-webkit-scrollbar-thumb:hover { background: #00FFFF; }
+    </style>
+</head>
+<body class="font-mono text-gray-300 antialiased overflow-x-hidden selection:bg-y2k-cyan selection:text-black">
+
+    <!-- NAVIGATION (Minimal) -->
+    <nav class="w-full bg-[#050508]/80 backdrop-blur-md border-b border-y2k-cyan/30 fixed top-0 z-50">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <a href="index.html" class="flex items-center group cursor-pointer text-y2k-cyan hover:text-white transition-colors">
+                    <i class="fa-solid fa-arrow-left mr-3"></i> 
+                    <span class="font-pixel text-xs tracking-widest uppercase">cd /home/startseite</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+        
+        <!-- Terminal Window -->
+        <div class="bg-black border border-y2k-cyan p-1 rounded-lg relative shadow-[0_0_30px_rgba(0,255,255,0.1)]">
+            <!-- Window Header -->
+            <div class="bg-gray-900 px-4 py-2 flex items-center justify-between border-b border-y2k-cyan/30">
+                <div class="flex items-center gap-2">
+                    <i class="fa-solid fa-terminal text-y2k-cyan text-xs"></i>
+                    <span class="text-xs text-y2k-cyan font-pixel uppercase tracking-widest">impressum.txt</span>
+                </div>
+                <div class="flex gap-2">
+                    <div class="w-3 h-3 border border-white/50 hover:bg-white transition-colors cursor-pointer"></div>
+                    <div class="w-3 h-3 border border-white/50 hover:bg-white transition-colors cursor-pointer"></div>
+                    <div class="w-3 h-3 border border-y2k-pink hover:bg-y2k-pink transition-colors cursor-pointer"></div>
+                </div>
+            </div>
+            
+            <!-- Window Content -->
+            <div class="p-8 space-y-8 text-sm leading-relaxed">
+                <div>
+                    <h1 class="font-cyber text-2xl md:text-3xl text-white tracking-widest uppercase mb-6 border-b border-white/10 pb-4">Impressum</h1>
+                    <p class="text-y2k-cyan mb-4">> INITIALISIERE DATEN...</p>
+                    <p class="italic text-gray-500 mb-8">// HINWEIS: Dies ist ein Vorab-Entwurf. Die finalen rechtlichen Daten werden nach Absprache eingepflegt.</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-white uppercase tracking-wider mb-2">Angaben gemäß § 5 TMG</h2>
+                    <p>Levi Tattoo Berlin<br>
+                    [Vorname Nachname / Firmenname]<br>
+                    [Cyberstraße 99]<br>
+                    [10115 Berlin]</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-white uppercase tracking-wider mb-2">Kontakt</h2>
+                    <p>Telefon: [+49 123 456789]<br>
+                    E-Mail: [info@levitattoo.de]</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-white uppercase tracking-wider mb-2">Umsatzsteuer-ID</h2>
+                    <p>Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br>
+                    [DE123456789]</p>
+                </div>
+
+                <div>
+                    <h2 class="font-bold text-white uppercase tracking-wider mb-2">Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
+                    <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.</p>
+                </div>
+                
+                <div class="pt-8 border-t border-white/10 text-y2k-cyan animate-pulse">
+                    > _
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
