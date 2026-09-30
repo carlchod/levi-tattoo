@@ -455,7 +455,7 @@
                 let loopDate = new Date(year, month, day);
                 let dayOfWeek = loopDate.getDay(); 
                 
-                if (loopDate < today || dayOfWeek === 0 || dayOfWeek === 1) {
+                if (loopDate < today || dayOfWeek === 0) {
                     btn.className = "p-2 border border-white/5 text-gray-700 cursor-not-allowed";
                     btn.disabled = true;
                 } else {
